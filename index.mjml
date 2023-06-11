@@ -1,0 +1,465 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+
+      a:hover {
+        text-decoration: none;
+        color: #000;
+      }
+
+      @media only screen and (min-width: 480px) {
+        .vault-rewards-image_mobile {
+          display: none !important;
+        }
+        .watch{
+          padding: 0px !important;
+        }
+        .chain-watch{
+          padding: 0px !important;
+        }
+      }
+
+      @media only screen and (max-width: 479px) {
+
+
+        .gold-bracelet {
+          display: none !important;
+        }
+
+        .gold-necklace {
+          background-color: #f6f6f6 !important;
+        }
+
+        .braclet-shopnow {
+          display: none !important;
+        }
+
+        .popular-items {
+          padding-top: 25px !important;
+        }
+
+        .vault-rewards-image {
+          display: none !important;
+        }
+        
+
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      .content-background {
+        background-color: #ffffff;
+      }
+    </mj-style>
+
+    <mj-attributes>
+      <mj-text color="#000" font-family=" Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#efefef">
+    <mj-wrapper css-class="content-background" padding="0">
+
+
+      <mj-raw>
+        <!-- Header -->
+      </mj-raw>
+
+      <mj-section border-bottom="8px solid black">
+        <mj-column>
+          <mj-image href="https://kay.com" alt="Kays Logo" src="https://benjamingarcia.info/wp-content/uploads/2023/06/k-logo.png" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Save More w/ Percentages OFf-->
+      </mj-raw>
+      <mj-section background-color="#fff" border-top="30px solid #f2f2f2" border-right="30px solid #f3f3f3" border-left="30px solid #f2f2f2">
+        <mj-column>
+          <mj-text align="center" font-size="18px" line-height="21.6px" letter-spacing="1px" font-weight="400">
+            Buy More
+          </mj-text>
+          <mj-text align="center" font-size="50px" line-height="60px" font-weight="700">
+            SAVE EVEN MORE
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section border-right="30px solid #f2f2f2" border-left="30px solid #f2f2f2">
+        <mj-column>
+          <mj-text align="center" font-size="18px" font-weight="700" line-height="27px">
+            <a href="kay.com">
+              <table width="100%" border="1px solid #000" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td>
+
+                    <p style="margin-bottom: 0px;">20% OFF*</p>
+                    <p style="font-size: 15px; color: #000; font-weight: 400; margin-top: 0px;">$3000 OR MORE</p>
+
+                  </td>
+                </tr>
+              </table>
+            </a>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="center" font-size="18px" font-weight="700" line-height="27px">
+            <a href="kay.com">
+              <table width="100%" border="1px solid #000" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td>
+                    <p style="margin-bottom: 0px">15% OFF*</p>
+                    <p style="font-size: 15px; color: #000; font-weight: 400; margin-top: 0px;">$1000 - $2,999.99</p>
+                  </td>
+                </tr>
+              </table>
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section border-right="30px solid #f2f2f2" border-left="30px solid #f2f2f2" border-bottom="30px solid #f2f2f2">
+        <mj-column>
+          <mj-text align="center" font-size="18px" font-weight="700" line-height="27px">
+            <a href="kay.com">
+              <table width="100%" border="1px solid #000" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td>
+                    <p style="margin-bottom: 0px;">10% OFF*</p>
+                    <p style="font-size: 15px; color: #000; font-weight: 400; margin-top: 0px;">$300 - $999.99</p>
+                  </td>
+                </tr>
+              </table>
+            </a>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="center" font-size="18px" font-weight="700" line-height="27px">
+            <a href="kay.com">
+              <table width="100%" border="1px solid #000" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td>
+                    <p style="margin-bottom: 0px">5% OFF*</p>
+                    <p style="font-size: 15px; color: #000; font-weight: 400; margin-top: 0px;">UP TO $299.99</p>
+                  </td>
+                </tr>
+              </table>
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Female Model w/ Jewlery Image-->
+      </mj-raw>
+      <mj-section padding-top="0px" padding-bottom="0px">
+        <mj-column>
+          <mj-image href="kay.com" alt="Female Model" src="https://benjamingarcia.info/wp-content/uploads/2023/06/lmodel.png" width="599px" padding="0px" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0px" padding-bottom="0px">
+        <mj-column>
+          <mj-image href="kay.com" alt="Female Model" src="https://benjamingarcia.info/wp-content/uploads/2023/06/jew.png" width="599px" padding="0px" />
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0px">
+        <mj-column>
+          <mj-image href="kay.com" alt="Female Model" src="https://benjamingarcia.info/wp-content/uploads/2023/06/jew2.png" width="599px" padding="0px" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Exclusive Kay Description -->
+      </mj-raw>
+      <mj-section padding-bottom="0px">
+        <mj-column>
+          <mj-text align="center" padding-bottom="6px" font-size="24px" font-weight="700" line-height="28.8px">Exclusively at KAY</mj-text>
+          <mj-text align="center" padding-bottom="5px" font-size="18px" font-weight="400" line-height="21.6px">Interlinking designs embracing a signature diamond, representing your hearts, souls and lives forever entwined by love.</mj-text>
+          <mj-text align="center" font-size="14px" font-weight="700" line-height="28px" text-decoration="underline"><a href="kay.com">SHOP NOW</a></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Female Model w/ Jewlery -->
+      </mj-raw>
+      <mj-section padding-bottom="0px">
+        <mj-column>
+          <mj-image href="kay.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/lmodel2.png" width="599px" padding="0px" alt="Female Model" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0px" padding-bottom="0px">
+        <mj-column>
+          <mj-image href="kay.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/jew3.png" width="599px" padding="0px" alt="Jewlery" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Shop Now w/ Description -->
+      </mj-raw>
+      <mj-section padding-top="0px">
+        <mj-column>
+          <mj-text align="center" padding-bottom="5px" font-size="18px" font-weight="400" line-height="21.6px">Diamonds and gemstones that continuously catch the light and sparkle from every angle, just like your love.</mj-text>
+          <mj-text align="center" font-size="14px" font-weight="700" line-height="28px" text-decoration="underline"><a href="kay.com">SHOP NOW</a></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Jewlery Image / Description-->
+      </mj-raw>
+      <mj-section padding-bottom="0px" padding-top="0px">
+      
+          <mj-column width="50%" vertical-align="top">
+            <mj-image padding-top="50px" css-class="watch" href="kay.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/watch.png" width="285px" padding="0px" alt="Gold Watch" />
+          </mj-column>
+          <mj-column css-class="watch-column" width="50%" background-color="#f2f2f2" vertical-align="top">
+            <mj-text css-class="watch-text" align="center" padding-left="40px" padding-right="40px" padding-top="117px" padding-bottom="0px" font-size="18px" font-weight="400" line-height="21.6px">Gift Dad a distinctive timepiece that goes with everything.</mj-text>
+            <mj-text align="center" padding-bottom="100px" font-size="14px" font-weight="700" line-height="28px" text-decoration="underline"><a href="kay.com">SHOP NOW</a></mj-text>
+          </mj-column>
+        
+      </mj-section>
+
+      <mj-section padding-bottom="0px" padding-top="0px">
+      
+          <mj-column width="50%" background-color="#f2f2f2" vertical-align="top">
+            <mj-text align="center" padding-left="40px" padding-right="40px" padding-top="117px" padding-bottom="0px" font-size="18px" font-weight="400" line-height="21.6px">Wrap up a classic watch and mark her special milestone in time.</mj-text>
+            <mj-text align="center" padding-bottom="100px" font-size="14px" font-weight="700" line-height="28px" text-decoration="underline"><a href="kay.com">SHOP NOW</a></mj-text>
+          </mj-column>
+          <mj-column width="50%" vertical-align="top">
+            <mj-image css-class="chain-watch" href="kay.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/chain-watch.png" width="285px" padding-top="50px" padding="0px" alt="Gold Watch and Gold Cross Pendant" />
+          </mj-column>
+        
+      </mj-section>
+      <mj-raw>
+        <!-- Father Image -->
+      </mj-raw>
+      <mj-section padding-bottom="0">
+        <mj-column width="100%">
+          <mj-image padding-left="0px" padding-right="0px" width="599px" href="kay.com" alt="Father Holding Child" src="https://benjamingarcia.info/wp-content/uploads/2023/06/man.png" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Father Day Description -->
+      </mj-raw>
+      <mj-section padding-top="0px" padding-bottom="0px">
+        <mj-column>
+          <mj-text align="center" padding-bottom="6px" font-size="24px" font-weight="700" line-height="28.8px">Father's Day Gift Shop</mj-text>
+          <mj-text align="center" padding-bottom="15px" font-size="18px" font-weight="400" line-height="21.6px">Buy more, and save even more on gifts every dad will cherish.</mj-text>
+          <mj-text align="center" font-size="14px" font-weight="700" line-height="28px"><a href="https://www.kay.com/" style="background-color: #000; color: #fff; padding: 10px 20px;">SHOP NOW</a></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Shop Now Images of Bracelet and Necklace -->
+      </mj-raw>
+
+      <mj-section padding-bottom="0">
+        <mj-column css-class="gold-necklace-column" width="50%" vertical-align="top">
+          <mj-image css-class="gold-necklace" align="center" href="https://www.kay.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/neckalce.png" padding-left="0px" padding-right="0px" width="340px" alt="Gold Necklace" />
+        </mj-column>
+        <mj-column css-class="gold-bracelet-column" width="50%" vertical-align="top">
+          <mj-image css-class="gold-bracelet" align="right" href="https://www.kay.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/braclet.png" padding-left="0px" padding-right="0px" width="340px" alt="Gold Bracelet" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0px">
+        <mj-column>
+          <mj-text align="center" font-size="14px" font-weight="700" line-height="28px" text-decoration="underline"><a href="https://www.kay.com">SHOP NOW</a></mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text css-class="braclet-shopnow" align="center" font-size="14px" font-weight="700" line-height="28px" text-decoration="underline"><a href="https://www.kay.com/">SHOP NOW</a></mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#f6f6f6">
+        <mj-column>
+          <mj-text align="center" padding-bottom="6px" font-size="24px" font-weight="700" line-height="28.8px">Clear the Vault</mj-text>
+          <mj-text align="center" padding-bottom="15px" font-size="18px" font-weight="400" line-height="21.6px">Hundreds of New Markdowns Added</mj-text>
+          <mj-text align="center" font-size="14px" font-weight="700" line-height="28px"><a href="https://www.kay.com/" style="background-color: #000; color: #fff; padding: 10px 20px;">SHOP NOW</a></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Popular Items Section-->
+      </mj-raw>
+      <mj-section css-class="popular-items" padding-top="0px" padding-bottom="0px">
+        <mj-column>
+          <mj-text align="center" padding-bottom="6px" font-size="20px" font-weight="700" line-height="24px">Our Most Popular Items This Week
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0px" padding-bottom="0px" border-bottom="5px solid black">
+        <mj-column>
+          <mj-image href="https://www.kay.com/" src="https://benjamingarcia.info/wp-content/uploads/2023/06/popular1.jpg" />
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.kay.com/" src="https://benjamingarcia.info/wp-content/uploads/2023/06/popular2.png" />
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.kay.com/" src="https://benjamingarcia.info/wp-content/uploads/2023/06/popular3.png" />
+        </mj-column>
+
+      </mj-section>
+
+      <mj-raw>
+        <!-- 2 column List-->
+      </mj-raw>
+
+      <mj-section padding-top="0px" padding-bottom="4px">
+        <mj-group>
+          <mj-column inner-background-color="#f7f6f7" padding="0px 4px 0px 0px">
+            <mj-text align="center" font-size="16px" font-weight="700" padding="15px"><a href="https://kay.com">
+                Gift Ideas</a>
+            </mj-text>
+          </mj-column>
+          <mj-column inner-background-color="#f7f6f7" padding="0px 0px 5px 4px">
+            <mj-text align="center" font-size="16px" font-weight="700" padding="15px"><a href="https://kay.com">
+                Rings</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding-top="0px" padding-bottom="4px">
+        <mj-group>
+          <mj-column inner-background-color="#f7f6f7" padding="0px 4px 0px 0px">
+            <mj-text align="center" font-size="16px" font-weight="700" padding="15px"><a href="https://kay.com">
+                Engagement</a>
+            </mj-text>
+          </mj-column>
+          <mj-column inner-background-color="#f7f6f7" padding="0px 0px 5px 4px">
+            <mj-text align="center" font-size="16px" font-weight="700" padding="15px"><a href="https://kay.com">
+                Necklaces</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding-top="0px" padding-bottom="4px">
+        <mj-group>
+          <mj-column inner-background-color="#f7f6f7" padding="0px 4px 0px 0px">
+            <mj-text align="center" font-size="16px" font-weight="700" padding="15px"><a href="https://kay.com">
+                Wedding</a>
+            </mj-text>
+          </mj-column>
+          <mj-column inner-background-color="#f7f6f7" padding="0px 0px 5px 4px">
+            <mj-text align="center" font-size="16px" font-weight="700" padding="15px"><a href="https://kay.com">
+                Earrings</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding-top="0px" padding-bottom="4px">
+        <mj-group>
+          <mj-column inner-background-color="#f7f6f7" padding="0px 4px 0px 0px">
+            <mj-text align="center" font-size="16px" font-weight="700" padding="15px"><a href="https://kay.com">
+                Customize</a>
+            </mj-text>
+          </mj-column>
+          <mj-column inner-background-color="#f7f6f7" padding="0px 0px 5px 4px">
+            <mj-text align="center" font-size="16px" font-weight="700" padding="15px"><a href="https://kay.com">
+                Bracelets</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding-top="0px" padding-bottom="4px">
+        <mj-group>
+          <mj-column inner-background-color="#f7f6f7" padding="0px 4px 0px 0px">
+            <mj-text align="center" font-size="16px" font-weight="700" padding="15px"><a href="https://kay.com">
+                Clearance</a>
+            </mj-text>
+          </mj-column>
+          <mj-column inner-background-color="#f7f6f7" padding="0px 0px 5px 4px">
+            <mj-text align="center" font-size="16px" font-weight="700" padding="15px"><a href="https://kay.com">
+                Watches</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-raw>
+        <!-- 4 column List-->
+      </mj-raw>
+      <mj-section padding-top="0px" padding-bottom="4px" border-bottom="5px solid black">
+
+        <mj-column inner-background-color="#000" padding="0px 4px 0px 0px">
+          <mj-image css-class="vault-rewards-image" padding-top="0px" padding-bottom="0px" align="right" padding-left="0px" padding-right="0px" width="136px" height="167px" href="https://kay.com" alt="Kay Vault Rewards Program" src="https://benjamingarcia.info/wp-content/uploads/2023/06/4column1.png" />
+          <mj-image css-class="vault-rewards-image_mobile" padding-top="0px" padding-bottom="0px" align="center" padding-left="0px" padding-right="0px" width="136px" height="167px" href="https://kay.com" alt="Kay Vault Rewards Program" src="https://benjamingarcia.info/wp-content/uploads/2023/06/vaultnew.png" />
+        </mj-column>
+        <mj-column inner-background-color="#f7f6f7" padding="0px 0px 5px 4px">
+          <mj-image align="center" padding-left="0" padding-right="0" width="136px" height="85px" href="https://kay.com" alt="Buy Now" src="https://benjamingarcia.info/wp-content/uploads/2023/06/4column2.png" />
+          <mj-text align="center" font-size="16px" font-weight="700" padding="0px 0 46px 0"><a href="https://kay.com">
+              Get it Today!</a>
+          </mj-text>
+        </mj-column>
+        <mj-column inner-background-color="#f7f6f7" padding="0px 0px 5px 4px">
+          <mj-image align="center" padding-left="0" padding-right="0" width="136px" height="85px" href="https://kay.com" alt="Kay Jewelry Expert" src="https://benjamingarcia.info/wp-content/uploads/2023/06/4column3.png" />
+          <mj-text align="center" font-size="16px" font-weight="700" padding="0px 0 30px 0"><a href="https://kay.com">
+              Connect to a Jewelry Expert</a>
+          </mj-text>
+        </mj-column>
+        <mj-column inner-background-color="#f7f6f7" padding="0px 0px 5px 4px">
+          <mj-image align="center" padding-left="0" padding-right="0" width="136px" height="85px" href="https://kay.com" alt="Kay Credit & Custom Payment Options" src="https://benjamingarcia.info/wp-content/uploads/2023/06/4column4.png" />
+          <mj-text align="center" font-size="16px" font-weight="700" padding="0px 0 30px 0"><a href="https://kay.com">
+              Credit Payment Options</a>
+          </mj-text>
+        </mj-column>
+
+      </mj-section>
+      <mj-raw>
+        <!-- Kays Map and Address-->
+      </mj-raw>
+      <mj-section padding-bottom="0px" padding-top="0">
+        <mj-column width="100%" vertical-align="top">
+          <mj-image width="599px" height="250px" href="kay.com" src="https://benjamingarcia.info/wp-content/uploads/2023/06/adress.png" width="285px" padding="0px" alt="Kay Jewlery Address" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- 4 Column Footer Header-->
+      </mj-raw>
+      <mj-section padding-bottom="4px">
+        <mj-column width="21%" padding="0px 4px 0px 4px" border-right="1px solid black">
+          <mj-text align="center" font-size="14px" font-weight="400" padding="0px 6px 0"><a href="https://kay.com">
+              My Account </a>
+          </mj-text>
+        </mj-column>
+        <mj-column width="21%" padding="0px 4px 0px 4px" border-right="1px solid black">
+          <mj-text align="center" font-size="14px" font-weight="400" padding="0px 6px 0"><a href="https://kay.com">
+              Contact Us</a>
+          </mj-text>
+        </mj-column>
+        <mj-column width="21%" padding="0px 4px 0px 4px" border-right="1px solid black">
+          <mj-text align="center" font-size="14px" font-weight="400" padding="0px 6px 0"><a href="https://kay.com">
+              Privacy Policy </a>
+          </mj-text>
+        </mj-column>
+        <mj-column width="21%" padding="0px 4px 0px 4px">
+          <mj-text align="center" font-size="14px" font-weight="400" padding="0px 6px 0"><a href="https://kay.com">
+              Unsubscribe</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-bottom="25px">
+        <mj-column width="84%" padding="0px 4px 0px 4px">
+          <mj-text align="center" font-size="10px" line-height="12px" font-weight="400" padding="0px 6px 0">
+            *Excludes Now & Forever® and Lab-Created Diamonds by KAY solitaire rings, Armani Exchange, Bulova Frank Sinatra, Bulova Marc Anthony, Bulova American Girl and Bulova Archive Series, Casio, Coach, Fossil, Hamilton, Hugo Boss, Mido, Movado, Tissot, and select JBW watches, smartwatches, watchbands, loose diamonds, “Lilac” ticketed merchandise, clearance, previously owned merchandise, ear piercing merchandise, personalized jewelry, Sparkling Savings, specially priced merchandise, special events, charity items, warranties, repairs, gift cards and previous purchases. Cannot be combined with any other offer. Offer may exclude certain new items, designer brands, and licensed or exclusive collections. Promotions, prices, styles and availability may vary by store and online. Minimum purchase amount excludes taxes and shipping. See Jewelry Expert for details. Offer valid through 05/29/23 at 11:59 ET.
+          </mj-text>
+          <mj-text align="center" font-size="10px" line-height="12px" font-weight="400" padding="10px 40px 0">
+            *Limited to items available for Buy Online Pick Up in Store. Availability, selection, and order cut-off time may vary by location. Fees apply to same day delivery. See <a style="text-decoration: underline;" href="https://kay.com">KAY.com.</a>
+          </mj-text>
+          <mj-text align="center" font-size="10px" line-height="12px" font-weight="400" padding="10px 60px 0">
+            To ensure delivery to your inbox, add email@em.kay.com to your address book.
+            This email was sent by: KAY® Jewelers - 375 Ghent Rd., Akron, Ohio 44333
+          </mj-text>
+          <mj-text align="center" font-size="10px" line-height="12px" font-weight="400" padding="10px 70px 0">
+            <span style="font-weight: bold;">This email was sent for promotional and marketing purposes.</span>
+            If you no longer wish to receive these emails, unsubscribe using the link above
+          </mj-text>
+          <mj-text align="center" font-size="10px" line-height="12px" font-weight="400" padding="10px 70px 0">
+            <span style="font-weight: bold;">© 2000-2023 Sterling Jewelers Inc. dba KAY Jewelers
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>
